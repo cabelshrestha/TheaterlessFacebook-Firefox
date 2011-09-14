@@ -1,0 +1,6 @@
+#urlbar_facebookIcon{
+	list-style-image: url("chrome://fbext/skin/logo-16.png");
+	height:16px;
+	width:16px;
+	cursor:pointer;
+}

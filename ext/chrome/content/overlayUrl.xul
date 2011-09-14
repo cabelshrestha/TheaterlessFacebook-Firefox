@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://fbext/content/css/overlay.css" type="text/css"?>
+<overlay id="addressbarOverlay" 
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	 <script type="application/x-javascript" src = "chrome://fbext/content/js/menu.js"/> 
+
+	<hbox id="urlbar-icons">
+		<image id="urlbar_facebookIcon" 
+		insertbefore="go-button" 
+		onclick="pop();" 
+		onload="onOverlayLoad();"
+		tooltiptext="To hell with theater-photo-viewing!" />
+	</hbox>
+</overlay>

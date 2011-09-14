@@ -1,0 +1,41 @@
+#userChoice {
+  background-color:white;
+}
+
+image {
+  margin:5px;
+  border:1px solid black;
+  width:75px;
+  height:60px;
+  cursor:pointer;
+}
+
+#theaterless {
+  cursor:pointer;
+}
+#theaterless:hover {
+  background-color: #6666FF;
+}
+
+#theater {
+  cursor:pointer;
+}
+#theater:hover {
+  background-color: #6666FF;
+}
+
+#theaterlessImg {
+  list-style-image: url("chrome://fbext/skin/theaterless.png");
+}
+
+#theaterImg {
+  list-style-image: url("chrome://fbext/skin/theater.png");
+}
+
+label {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 14px;
+}
+label.lbl {
+  cursor:pointer;
+}
