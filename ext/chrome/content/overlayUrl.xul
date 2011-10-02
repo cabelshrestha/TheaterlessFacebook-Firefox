@@ -9,6 +9,6 @@
 		insertbefore="go-button" 
 		onclick="pop();" 
 		onload="onOverlayLoad();"
-		tooltiptext="To hell with theater-photo-viewing!" />
+		tooltiptext="Avoid image overlay!" />
 	</hbox>
 </overlay>
